@@ -11,11 +11,11 @@
 
   <body>
 
-   <div class="menu">
-      <a href="C:\Users\User\Desktop\Spirala1\wt20p17717\Z1\raspored.html" class="active">Raspored</a>
-      <a href="C:\Users\User\Desktop\Spirala1\wt20p17717\Z2\aktivnost.html">Aktivnost</a>
-      <a href="C:\Users\User\Desktop\Spirala1\wt20p17717\Z3\planiranjeNastavnik.html">Planiranje nastavnik</a>
-      <a href="C:\Users\User\Desktop\Spirala1\wt20p17717\Z4\podaciStudent.html">Podaci student</a>
+  <div class="menu">
+      <a href="C:\Users\User\Desktop\wt20p17717\Z1\raspored.html" class="active">Raspored</a>
+      <a href="C:\Users\User\Desktop\wt20p17717\Z2\aktivnost.html">Aktivnost</a>
+      <a href="C:\Users\User\Desktop\wt20p17717\Z3\planiranjeNastavnik.html">Planiranje nastavnik</a>
+      <a href="C:\Users\User\Desktop\wt20p17717\Z4\podaciStudent.html">Podaci student</a>
     </div>
 
 
