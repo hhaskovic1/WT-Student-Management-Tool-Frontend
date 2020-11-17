@@ -1,0 +1,117 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+ background-color: WhiteSmoke;
+}
+
+.menu {
+  word-spacing: 10px;
+  background-color: LightSteelBlue;
+  color: black;
+  margin-top: -10px;
+  margin-left: -8.5px;
+  text-decoration: none;
+  font-size:95%;
+}
+
+a { 
+  word-spacing: 0px;
+  color: black;
+  text-indent: 50px;
+  text-decoration: none;
+}
+
+a:hover {
+   background-color:LightSlateGray;
+}
+
+.menu .active:hover {
+  background-color: DarkSlateGray;
+}
+
+.menu .active {
+  background-color: SteelBlue;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+th {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: normal;
+}
+
+
+
+th.b,
+th.c {
+  width: 40px;
+  border: 1px;
+  border-style: none none none none;
+  text-indent: -45px;
+}
+
+th.c {
+  padding-right: 3%;
+}
+
+td.e::first-line,
+td.f::first-line,
+td.g::first-line {
+  font-weight: bolder;
+}
+
+td.a,
+td.b {
+  background-color: Gainsboro;
+  border: 1px;
+  height: 60px;
+}
+
+td.a {
+  border-style: solid dashed solid solid;
+}
+
+td.b {
+  border-style: solid solid solid dashed;
+}
+
+td.e,
+td.f,
+td.g,
+td.h {
+  border: 1px;
+  text-align: center;
+  size: fixed;
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+td.e {
+  background-color: Lavender;
+  border-style: solid;
+}
+
+td.f {
+  background-color: Lavender;
+  border-style: solid dashed solid solid;
+}
+
+td.g {
+  background-color: Lavender;
+  border-style: solid solid solid dashed;
+}
+
+td.h {
+  background-color: Gainsboro;
+  border-style: solid solid solid dashed;
+}

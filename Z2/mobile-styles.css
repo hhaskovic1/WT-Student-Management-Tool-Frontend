@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+  }
+
+  .ta {
+    display: none;
+  }
+
+
+}

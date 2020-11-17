@@ -1,0 +1,172 @@
+* {
+  font-family: sans-serif;
+}
+
+
+.container, .t { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ body {
+   background-color: WhiteSmoke;
+
+   }
+
+ .menu {
+   word-spacing: 10px;
+   background-color: LightSteelBlue;
+   color: black;
+   margin-top:  -4px;
+   margin-left: 1px;
+   text-decoration: none;
+   font-size:100%;
+ }
+
+
+
+
+ a {
+   word-spacing: 0px;
+   color: black;
+   text-indent: 50px;
+   text-decoration: none;
+ }
+
+ a:hover {
+   background-color: LightSlateGray;
+ }
+
+ .menu .active:hover {
+   background-color: DarkSlateGray;
+ }
+
+ .menu .active {
+   background-color: SteelBlue;
+   color: white;
+ }
+
+ .ta,
+ .tc {
+   position: relative;
+   width: 225px;
+   height: 225px;
+   margin: 90px 0px;
+   background: WhiteSmoke;
+   border-radius: 15% / 15%;
+   color: white;
+   text-align: center;
+   text-indent: .1em;
+   border-style: solid;
+   border-color: CornflowerBlue;
+ }
+
+ .tb {
+   position: relative;
+   width: 300px;
+   height: 300px;
+   margin: 15px 0px;
+   background: WhiteSmoke;
+   border-radius: 10% / 7.5%;
+   color: white;
+   text-align: center;
+   text-indent: .1em;
+   border-style: solid;
+   border-color: CornflowerBlue;
+ 
+ }
+ 
+ .ta {
+   right:1%;
+ }
+ 
+ .tc  {
+     left:1%;
+ }
+
+ .ta::before,
+ .tb::before,
+ .tc::before {
+   position: absolute;
+   bottom: 5%;
+
+   background: WhiteSmoke;
+   border-radius: 0% / 50%;
+   color: CornflowerBlue;
+   white-space: nowrap;
+   font-size: small;
+   text-align: center;
+
+ }
+
+ .ta::last-line {
+   font-size:medium;
+ }
+
+ .ta::before {
+   right: 18.5%;
+   left: 18.5%;
+   top: -5.5%;
+   content: 'Prethodna aktivnost';
+ }
+
+ .tb::before {
+   right: 26%;
+   left: 26%;
+   top: -4.5%;
+   content: 'Trenutna aktivnost';
+
+ }
+
+ .tc::before {
+   right: 21%;
+   left: 21%;
+   top: -5.5%;
+   content: 'Sljedeca aktivnost';
+ }
+
+
+
+ .ta::after,
+ .tb::after,
+ .tc::after {
+   position: absolute;
+   top: 22.5%;
+   left: 5%;
+   right: 5%;
+   background: WhiteSmoke;
+   border-radius: 0% / 50%;
+   color: CornflowerBlue;
+   white-space: pre;
+   font-size: small;
+   text-align: center;
+  
+ font-size: 95%;
+   
+}
+
+.ta::after,.tc::after {
+  bottom: 55%;
+}
+ .tb::after
+ {
+    bottom: 60%;
+ }
+
+
+ .ta::after {
+
+   content: 'OI\a Predavanja\a\a Aktivnost od prije 1 dan';
+ }
+
+ .tb::after {
+
+   content: 'WT\a Predavanja\a\a Preostalo vrijeme: 60min\a Pocetak: 09:00\a Kraj: 12:00';
+ }
+
+ .tc::after {
+   white-space: pre;
+   content: 'WT\a Vježbe\a\a Vrijeme do aktivnosti: 60min\a Pocetak: 12:00\a Kraj: 13:30';
+ }
+

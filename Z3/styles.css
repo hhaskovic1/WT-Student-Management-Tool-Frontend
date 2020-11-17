@@ -1,0 +1,91 @@
+* {
+  font-family: sans-serif;
+}
+
+
+body {
+  background-color: WhiteSmoke;
+}
+
+.menu {
+  word-spacing: 10px;
+  background-color: LightSteelBlue;
+  color: black;
+  margin-top: -10px;
+  margin-left: -8.5px;
+  text-decoration: none;
+  font-size: 95%;
+}
+
+a {
+  word-spacing: 0px;
+  color: black;
+  text-indent: 50px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: LightSlateGray;
+}
+
+.menu .active:hover {
+  background-color: DarkSlateGray;
+}
+
+.menu .active {
+  background-color: SteelBlue;
+  color: white;
+}
+
+
+form {
+  line-height: 2;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+p {
+  display: table-row;
+}
+
+label {
+  display: table-cell;
+  text-align: right;
+  vertical-align: center;
+  padding-right: 1px;
+  margin-right: 10px;
+  position: relative;
+  right: 5%;
+  background-color: LightSteelBlue;
+  transform: translate(10%, 15%);
+
+}
+
+
+input[type=a],
+input[type=time] {
+background-color: Lavender;
+  vertical-align: bottom;
+  
+  display: table-cell;
+  width: 300px;
+   
+}
+
+input[type=a] {
+
+  height: 18px;
+  width: 350px;
+}
+
+input[type=time] {
+  height: 18px;
+  width: 351px;
+}
+

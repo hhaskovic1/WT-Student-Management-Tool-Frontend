@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+
+  th:first-of-type {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+
+
+
+  }
+
+  th.c, th.b {
+    display: none;
+  }
+
+
+  td {
+
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+  }
+
+  td:empty {
+    display: none;
+  }
+}
