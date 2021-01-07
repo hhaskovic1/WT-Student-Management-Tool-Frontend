@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <div class="menu">
+    <a href="C:\Users\User\Desktop\Spirala1\Z1\raspored.html">Raspored</a>
+    <a href="C:\Users\User\Desktop\Spirala1\Z2\aktivnost.html">Aktivnost</a>
+    <a href="C:\Users\User\Desktop\Spirala1\Z3\planiranjeNastavnik.html" class="active">Planiranje nastavnik</a>
+    <a href="C:\Users\User\Desktop\Spirala1\Z4\podaciStudent.html">Podaci student</a>
+  </div>
+
+  <head>
+    <title>planiranjeNastavnik.html</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="mobile-styles3.css">
+  </head>
+
+  <body>
+    <form>
+      <p>
+        <label for="naziv">Naziv predmeta </label>
+        <input type="a" id="naziv" name="text" value="Naziv predmeta">
+      </p>
+      <p>
+        <label for="tip">Tip </label>
+        <input type="a" list="nastava" id="tip" name="nastava" value="Predavanje">
+        <datalist id="nastava">
+          <option value="Predavanje"></option>
+          <option value="Vježbe"></option>
+        </datalist>
+      </p>
+      <p>
+        <label for="poc">Vrijeme pocetka </label>
+        <input type="time" id="poc" name="poc">
+      </p>
+      <p>
+        <label for="kr">Vrijeme kraja </label>
+        <input type="time" id="kr" name="kr">
+      </p>
+      <p>
+        <label for="dan">Dan u sedmici </label>
+        <input type="a" list="sedmica" id="dan" name="dan" value="Ponedjeljak">
+        <datalist id="sedmica">
+          <option value="Ponedjeljak"></option>
+          <option value="Utorak"></option>
+          <option value="Srijeda"></option>
+          <option value="Cetvrtak"></option>
+          <option value="Petak"></option>
+        </datalist>
+      </p>
+    </form>
+  </body>
+
+</html>
